@@ -1,0 +1,144 @@
+/*
+Primary Font: Lato
+Secondary Font: Roboto Condensed
+
+Dark Blue - rgb(70, 137, 244)
+Light Blue - rgb(186, 212, 255)
+
+'Bold' Orange - rgb(229, 158, 66)
+Light Orange - rgb(255, 227, 191)
+*/
+body{
+	background-image: url("https://image.freepik.com/foto-gratuito/superficie-astratta-e-texuture-delle-trame-di-tessuto-di-cotone-arancione_74190-8187.jpg");
+/*linear-gradient(to bottom, rgb(204, 129, 255), rgba(204, 229, 255, 0.2));*/
+	font-size: 1.45em;
+	text-align: justify;
+	font-family: "Lato", serif;
+}
+
+.main{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	/*grid-template-rows: auto;*/
+}
+
+p {
+	text-align: justify;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1{
+	color: rgb(0, 35, 130);
+	font-weight: 800;
+	text-align: center;
+	/*-webkit-animation: title-shift 4s ease 1s 3 alternate;*/
+}
+
+h2{
+	color: rgb(0, 35, 130);
+	font-weight: 600;
+	text-align: center;
+}
+
+h3{
+	color: black;
+	font-weight: 500;
+	text-align: center;
+}
+
+.sidebar{
+	height: 1500px;
+	margin: 40px
+
+}
+
+.post{
+	border: solid black;
+	padding: 10px;
+	margin: 20px;
+	text-align: center;
+  background: #FF6600;
+}
+
+.post:hover{
+	background-color: #EE6600;
+}
+
+
+.grid-container{
+display: grid;
+grid-template-columns: auto auto ;
+grid-template-rows: auto;
+justify-content: center;
+
+margin: 20px;
+}
+
+.persona{
+	border: solid black;
+	padding: 10px;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	align-items: center;
+  background: #FF6600;
+}
+
+.persona:hover{
+	background-color: #EE6600;
+	margin: 20px;
+	width: 150px;
+	height: 150px;
+}
+
+.punteggio{
+	border: solid black;
+	padding: 10px;
+	margin: 20px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+  background: #FF6600;
+}
+
+.punteggio:hover{
+	background-color: #EE6600;
+	margin: 20px;
+	width: 150px;
+	height: 150px;
+}
+
+
+
+.img-grid-item{
+border: solid black;
+height: 500px;
+margin: 30px;
+}
+
+@keyframes title-shift {
+		0% {color: rgb(40, 45, 146);
+			transform: translate(0px, 0px);
+		}
+		25% {color: rgb(60, 85, 166);
+			transform: translate(15%, 0px);
+		}
+		50% {color: rgb(80, 125, 186);
+			transform: translate(30%, 0px);
+		}
+		75% {color: rgb(90, 145, 206);
+			transform: translate(45%, 0px);
+		}
+		100% {color:rgb(100, 185, 226);
+			transform: translate(60%, 0px);
+		}
+}
+
+@keyframes fade-in {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
